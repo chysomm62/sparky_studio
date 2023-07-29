@@ -41,7 +41,7 @@ const data = {
   datasets: [
     {
       label: "Customer 1",
-      data: labels.map(() => randomNum(5, 200)),
+      data: labels.map(() => randomNum(0, 200)),
       backgroundColor: "rgba(80, 99, 192, 0.8)",
     },
     {

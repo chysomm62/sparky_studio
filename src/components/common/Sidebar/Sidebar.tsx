@@ -92,7 +92,7 @@ export default function PermanentDrawerLeft() {
           },
         }}
         variant="permanent"
-        anchor="left"
+        // anchor="left"
       >
         <Toolbar disableGutters>
           <Box height={32} width={132}>

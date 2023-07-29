@@ -13,15 +13,15 @@ interface LayoutProps {
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
-      <Box sx={{ display: "flex" }}>
-        <Sidebar />
-        <Box sx={{ flex: 1 }}>
-          <Navbar />
-          <main>
-            <Container maxWidth="xl">{children}</Container>
-          </main>
+      <Container maxWidth="xl">
+        <Box sx={{ display: "flex" }}>
+          <Sidebar />
+          <Box sx={{ flex: 1 }}>
+            <Navbar />
+            <main>{children}</main>
+          </Box>
         </Box>
-      </Box>
+      </Container>
     </>
   );
 };

@@ -1,3 +1,20 @@
+## Sparky Studio
+### Interview Project
+
+### Tools
+- React/Vite
+- Material UI
+- Tailwind CSS
+- Chart.js
+- React query
+- Axios
+- [Open source API: dummyjson](https://dummyjson.com/users)
+
+### Features
+This is a demo one page application for Sparky Studio. It shows information about some of the users(presumeably). It also shows charts with user performances over the week. It is designed to work well on laptop devices.
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

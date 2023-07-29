@@ -19,7 +19,7 @@ const DashboardCard: FC<DashboardCardProps> = ({ children, header }) => {
         width: "100%",
         height: openCard ? "100%" : "auto",
         backgroundColor: "#FFFFFF",
-        border: "1px solid #076DF3",
+        border: "2px solid #a76DFa",
         borderRadius: "12px",
       }}
       py={1}
@@ -31,7 +31,7 @@ const DashboardCard: FC<DashboardCardProps> = ({ children, header }) => {
           width: "100%",
           height: "35px",
           backgroundColor: "#FFFFFF",
-          border: "1px solid #076DF3",
+          border: "2px solid #a76DFa",
           borderRadius: "12px",
         }}
         p={1}
